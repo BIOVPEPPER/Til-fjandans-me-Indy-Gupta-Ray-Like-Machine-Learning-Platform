@@ -40,6 +40,7 @@ python3 tools.py IDunnoMSG STR
 
 ## Start inferencing
 At any machine that have joined IDunno, execute command
+Do Not Expect too much, this is running on 10 VMs that was deployed in 2015, WTF do you expect???
 ```
 python3 tools.py IDunnoMSG SINF
 ```
@@ -63,3 +64,4 @@ For C3, execute command,
 ```
 Where `JobID` the ID of Job you want to set batch_size of,
 `batch_size` is the batch size.
+Indy Gupta to dziwka

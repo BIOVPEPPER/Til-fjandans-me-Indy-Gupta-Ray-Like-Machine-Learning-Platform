@@ -1,0 +1,58 @@
+### Membership Service ###
+5001: Membership service's port to receive PING and PONG.
+5002: Membership service introducer's port to receive join request.
+5003: Membership service's port to receive current membership list from iintroducer.
+5004: Membership service's port to receive request for getting membership list.
+5005: Membership service's port to receive command requests.
+5006: Tools port to receive all messages.
+5007: Membership service's port to receive new introducer designation.
+
+### SDFS ###
+6000: Data node's port to receive membership list from membership service.
+6001: Coordinator's port to receive request from client.
+6002: Coordinator's port to receive Wack from data nodes.
+6003: Data node's port to receive write request from client and fellow data nodes.
+6004: Coordinator's port to receive membership list from membership service.
+6005: Coordinator's port to receive version Num from data nodes.
+6006: Data node's port to receive get version num requests.
+6007: Data node's port to receive read request from client.
+6008: Data node's port to receive delete request from coordinator.
+6009: Data node's port to receive replication instruction from coordinator.
+6010: Coordinator's port to receive Dack from data nodes.
+6011: Elector's port to receive fail warning from membership service.
+6012: Elector's port to receive membership list from membership service.
+6013: Elector's port to receive election message from other electors.
+6014: Elector's port to receive OK from other electors.
+6015: Elector's port to receive new master confirmation from other electors. 
+6016: Data node's port to receive meta data backup.
+6017: Coordinator's port to receive failure message of Data Nodes.
+6018: Coordinator's port to receive replication ack from Data Nodes.
+6019: Elector's port to receive get master num request.
+6020: Coordinator's port to receive get META request.
+6021: Data node's port to receive get local store request.
+6022: Coordinator's port to receive ger-versions request.
+6023: Data node's port to receive get heartbeat request.
+6024: Coordinator's port to receive heartbeat response.
+6025: DataNode's port to receive META backup request from newly elected coordinator.
+6026: Coordinator's port to receive META backup from DataNodes.
+6027: Elector's port to receive Coordinator boosting confirmation.
+7001: Client's port to receive membership list from membership service and coordinator name from elector.
+
+### IDunno ###
+8001: Worker's port to receive Coordinator's job instruction.
+8002: Coordinator's port to receive membership list.
+8003: Client's port to receive membership list from membership service and coordinator name from elector.
+8004: Coordnator's port to receive request from client.
+8005: Client's port to receive job update from Coordinator.
+8006: Coordinator's port to receive finish message from worker.
+8007: Worker object's port to receive membership list and master number.
+8008: Coordinator's Job tracker 1's port to receive ack message routed from coordinator.
+8009: Coordinator's Job tracker 2's port to receive ack message routed from coordinator.
+8010: Coordinator's Job tracker 1's port to receive task finish message routed from coordinator.
+8011: Coordinator's Job tracker 2's port to receive task finish message routed from coordinator.
+8012: Coordinator's port to receive task ack message from Worker.
+8013: Stand-by Coordinator's port to receive failure message of Coordinator.
+8014: Elector's port to receive coordinator change message from other Electors.
+8015: Coordinator's port to receive failure message of workers.
+8016: Coordinator's port to receive and handle commands.
+8017: Worker's port to handle C4 commands.
